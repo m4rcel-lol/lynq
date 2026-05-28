@@ -1,0 +1,43 @@
+{
+  "name": "@lynq/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -p tsconfig.json && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "preview": "vite preview --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@fontsource/geist": "^5.2.9",
+    "@lexical/react": "^0.37.0",
+    "@tanstack/react-query": "^5.90.11",
+    "@tanstack/react-router": "^1.139.5",
+    "@tanstack/react-virtual": "^3.13.13",
+    "dompurify": "^3.3.1",
+    "hls.js": "^1.6.15",
+    "i18next": "^25.6.3",
+    "lexical": "^0.37.0",
+    "lucide-react": "^0.554.0",
+    "marked": "^16.4.2",
+    "motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^16.3.5",
+    "shiki": "^3.15.0",
+    "socket.io-client": "^4.8.1",
+    "vite-plugin-pwa": "^1.2.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.5.4",
+    "vite": "^6.3.7"
+  }
+}

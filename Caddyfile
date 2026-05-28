@@ -1,0 +1,17 @@
+{$BASE_DOMAIN:localhost} {
+  route /api/* {
+    reverse_proxy backend:3000
+  }
+
+  route /socket.io/* {
+    reverse_proxy backend:3000
+  }
+
+  route /gateway/* {
+    reverse_proxy backend:3000
+  }
+
+  route * {
+    reverse_proxy frontend:4173
+  }
+}

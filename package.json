@@ -1,0 +1,21 @@
+{
+  "name": "lynq",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @lynq/backend && npm run build --workspace @lynq/frontend",
+    "typecheck": "npm run typecheck --workspace @lynq/backend && npm run typecheck --workspace @lynq/frontend",
+    "test": "npm run test --workspace @lynq/backend",
+    "dev:backend": "npm run dev --workspace @lynq/backend",
+    "dev:frontend": "npm run dev --workspace @lynq/frontend"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
