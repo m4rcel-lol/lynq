@@ -1,0 +1,1 @@
+import{j as s}from"./index-BQbizPwf.js";import{s as n}from"./Input.module-B9ssXvcU.js";function r({label:t,id:l,...a}){const e=l??a.name;return s.jsxs("label",{className:n.field,htmlFor:e,children:[t?s.jsx("span",{className:n.label,children:t}):null,s.jsx("input",{className:n.input,id:e,...a})]})}export{r as I};

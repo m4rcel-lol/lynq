@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Lynq">
+  <rect width="128" height="128" rx="28" fill="#0d0e11"/>
+  <path d="M31 82V35h15v34h22v13H31Z" fill="#6c8fff"/>
+  <path d="M72 94c-14 0-25-10-25-23s11-23 25-23 25 10 25 23c0 5-2 10-5 14l10 10H84l-3-3c-3 1-6 2-9 2Zm0-13c6 0 10-4 10-10s-4-10-10-10-10 4-10 10 4 10 10 10Z" fill="#eef0f6"/>
+</svg>

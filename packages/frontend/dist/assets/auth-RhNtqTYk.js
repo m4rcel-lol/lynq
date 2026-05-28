@@ -1,0 +1,1 @@
+import{c}from"./index-BQbizPwf.js";const a=c(e=>({accessToken:localStorage.getItem("lynq_access"),user:null,setAuth:(l,t)=>{localStorage.setItem("lynq_access",l),e({accessToken:l,user:t})},clearAuth:()=>{localStorage.removeItem("lynq_access"),e({accessToken:null,user:null})}}));export{a as u};

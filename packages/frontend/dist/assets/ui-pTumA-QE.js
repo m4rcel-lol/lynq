@@ -1,0 +1,1 @@
+import{c as a}from"./index-BQbizPwf.js";const r=a(t=>({membersOpen:!0,threadsOpen:!1,theme:localStorage.getItem("lynq_theme")??"dark",setMembersOpen:e=>t({membersOpen:e}),setThreadsOpen:e=>t({threadsOpen:e}),setTheme:e=>{localStorage.setItem("lynq_theme",e),document.documentElement.dataset.theme=e,t({theme:e})}}));export{r as u};
